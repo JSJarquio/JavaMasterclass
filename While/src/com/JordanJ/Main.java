@@ -1,3 +1,13 @@
+
+/*
+    The while loop checks the condition at the start before executing the block.
+    With the do while loop the code block is executed at once and then the condition is checked.
+    Be careful with conditions, it is easy to end up with an endless loop in other words a loop that never end or to end up with a loop that never executes.
+    Tip: always check your conditions/expressions.
+    We can interrupt the loop by using a continue and/or a break statement.
+    With the continue keyword the loop will bypass the part of the code block that is below the continue keyword and continue with the next iteration.
+    With the break keyword we can exit the loop depending on the condition that we are checking.
+ */
 package com.JordanJ;
 
 public class Main {
@@ -21,7 +31,7 @@ public class Main {
             count++;
         }
 
-    //  'do while'
+    //  'do while' (executes at least once)
         count = 6;
         do {
             System.out.println("'do while' Count value was " + count);
